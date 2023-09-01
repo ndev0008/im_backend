@@ -1,5 +1,5 @@
 <?php
-  $con = mysqli_connect('localhost', 'root', 'root', 'unityaccess');
+  $con = mysqli_connect('fit5120demo2.mysql.database.azure.com', 'sqladmin', 'Fit5120*', 'demo');
   if (mysqli_connect_errno()) {
     echo "1: Connection failed";
     exit();
